@@ -2,6 +2,7 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
+import Testimonials from "../components/Testimonials";
 import Footer from "../components/Footer";
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       </div>
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
+          <Testimonials />
           <Footer />
         </div>
       </div>
