@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { useState } from "react";
-import { close, menu } from "../assets";
-import logo from "../assets/logo.png";
+import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
 
 const Navbar = () => {
