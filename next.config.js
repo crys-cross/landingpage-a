@@ -3,8 +3,8 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    loader: "akamai",
-    path: "",
+    loader: "cloudinary",
+    path: "https://github.com/crys-cross/landingpage-a/tree/main/assets",
   },
 };
 
