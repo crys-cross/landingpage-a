@@ -8,15 +8,15 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between navbar">
-      <Image src={logo} alt="hoobank" className="w-[124px] h-[124px]" />
+      <Image src={logo} alt="hoobank" className="w-[124px] h-[32px]" />
 
       <ul className="list-none sm:flex hidden justify-end item-center flex-1">
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-[16px] ${
+            className={`font-raleway font-bold text-purple cursor-pointer text-[16px] hover:text-blue-500 ${
               index === Object.keys(navLinks).length - 1 ? "mr-0" : "mr-10"
-            } text-white`}
+            }`}
           >
             <a href={nav.id}>{nav.title}</a>
           </li>
