@@ -4,6 +4,7 @@ import { socialMedia } from "../constants";
 const Footer = () => {
   return (
     <section
+      id="footer"
       className={`flex justify-center items-center sm:py-16 py-6 flex-col`}
     >
       <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-2">

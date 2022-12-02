@@ -17,15 +17,15 @@ import {
 
 export const navLinks = [
   {
-    id: "home",
+    id: "/#home",
     title: "About Us",
   },
   {
-    id: "features",
+    id: "/blog",
     title: "Blog",
   },
   {
-    id: "product",
+    id: "/#footer",
     title: "Contacts",
   },
   {
